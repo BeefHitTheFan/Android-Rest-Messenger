@@ -1,0 +1,32 @@
+Nov 24, 2025 12:09:03 AM edu.stevens.cs522.chat.webservice.Main info
+INFO: Starting HTTP server...
+Nov 24, 2025 12:09:04 AM org.glassfish.jersey.server.wadl.WadlFeature configure
+WARNING: JAXBContext implementation could not be found. WADL feature is disabled.
+Nov 24, 2025 12:09:04 AM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [localhost:8080]
+Nov 24, 2025 12:09:04 AM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+Nov 24, 2025 12:09:04 AM edu.stevens.cs522.chat.webservice.Main info
+INFO: HTTP service available at http://localhost:8080...
+Nov 24, 2025 12:09:04 AM edu.stevens.cs522.chat.webservice.Main info
+INFO: Hit enter to stop...
+Nov 24, 2025 12:09:47 AM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (appId=427e73b9-d7dd-4ef0-99cd-c90b968cef17, chat-name=Zameer)
+Nov 24, 2025 12:09:47 AM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user Zameer with UUID 427e73b9-d7dd-4ef0-99cd-c90b968cef17.
+Nov 24, 2025 12:10:09 AM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (name = Zameer)
+Nov 24, 2025 12:10:09 AM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message "Hello This is Zameer is Default" (chatroom _default)
+Nov 24, 2025 12:10:30 AM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (name = Zameer)
+Nov 24, 2025 12:10:30 AM edu.stevens.cs522.chat.webservice.ChatActivity addMessage
+INFO: Dynamically adding chatroom (We are not syncing chatrooms with the server
+Nov 24, 2025 12:10:30 AM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message "Hello everyone in CS522" (chatroom CS522)
+Nov 24, 2025 12:10:48 AM edu.stevens.cs522.chat.webservice.ChatResource log
+INFO: DEBUG: Received logs request
+Nov 24, 2025 12:10:57 AM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received messages request
+Nov 24, 2025 12:10:57 AM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages.
