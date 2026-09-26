@@ -37,7 +37,7 @@ To keep the client-server communication reliable, the system relies on a strict 
 If you want to run this locally, follow these steps:
 
 1) Clone the repository to your local machine:
-```git clone https://github.com/yourusername/android-rest-messenger.git```
+```git clone https://github.com/BeefHitTheFan/Android-Rest-Messenger.git```
 2) Start the backend service first. Run the packaged JAR file from your terminal to initialize the Netty server on localhost:8080:
 java -jar ChatServer-REST.jar
 3) Open the Android project folder in Android Studio.
@@ -51,7 +51,7 @@ If you'd like to contribute to this project, whether it's optimizing the network
 Fork the repository using the "Fork" button at the top right of this page.
 
 Clone your fork locally:
-```git clone https://github.com/yourusername/android-rest-messenger.git```
+```git clone https://github.com/BeefHitTheFan/Android-Rest-Messenger.git```
 
 Create a new branch for your feature or bugfix:
 ```git checkout -b feature/your-feature-name```
